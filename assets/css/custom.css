@@ -103,13 +103,6 @@ ul.icons .icon-logo {
     text-align: center;
 }
 
-/* .poptrox-popup .caption {
-    white-space: normal !important;
-    overflow: visible;
-    text-overflow: unset;
-    line-height: 1.4;
-} */
-
 .poptrox-popup .caption {
     white-space: normal !important;
     overflow: visible;
@@ -156,4 +149,13 @@ ul.icons .icon-logo {
     padding: 0.6em 0.1em;
     margin: 0;
     /* border-top: none;  */
+}
+
+#header h1 .header-name,
+#header h1 .header-line {
+    display: block;
+}
+
+#header h1 .header-line {
+    font-size: 0.9em;
 }
