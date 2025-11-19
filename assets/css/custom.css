@@ -89,6 +89,13 @@ ul.icons .icon-logo {
     opacity: 0.5;
 }
 
+@media screen and (max-width: 736px) {
+  #research .work-item .image:before {
+      opacity: 0 !important;
+      background: none !important;
+  }
+}
+
 .video-caption {
     margin: 0.5em 0 1.5em;
     font-size: 0.9em;
