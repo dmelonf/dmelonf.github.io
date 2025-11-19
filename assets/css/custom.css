@@ -159,3 +159,9 @@ ul.icons .icon-logo {
 #header h1 .header-line {
     font-size: 0.9em;
 }
+
+@media screen and (max-width: 736px) {
+  #header h1 .header-line {
+      font-size: 0.85em;
+  }
+}
